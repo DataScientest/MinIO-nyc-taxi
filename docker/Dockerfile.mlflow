@@ -5,6 +5,8 @@ WORKDIR /mlflow
 # Expose port
 EXPOSE 5000
 
+RUN pip install boto3
+
 # Set default command
 CMD ["mlflow", "server", "--host", "0.0.0.0", "--port", "5000", "--backend-store-uri", "sqlite:///mlflow.db", "--default-artifact-root", "s3://nyc-taxi-data/mlflow/"]
 
