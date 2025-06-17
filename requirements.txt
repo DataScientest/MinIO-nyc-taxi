@@ -43,7 +43,7 @@ opentelemetry-semantic-conventions==0.50b0
 packaging==24.2
 pandas==2.0.3
 pillow==10.4.0
-protobuf==5.29.3
+protobuf==5.29.5
 pyarrow==17.0.0
 pyasn1==0.6.1
 pyasn1-modules==0.4.1
